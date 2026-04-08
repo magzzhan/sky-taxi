@@ -1,0 +1,420 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Магжан Тлеубек",
+      "email": "user@skytaxi.kz",
+      "phone": "+7 747 548 06 88",
+      "city": "Астана",
+      "role": "user",
+      "password": "123456",
+      "balance": 285000,
+      "tier": "Platinum",
+      "avatar": "MT",
+      "preferences": {
+        "seat": "Window",
+        "language": "Қазақша",
+        "notifications": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Sky Taxi Admin",
+      "email": "admin@skytaxi.kz",
+      "phone": "+7 700 000 00 00",
+      "city": "Алматы",
+      "role": "admin",
+      "password": "admin123",
+      "balance": 0,
+      "tier": "Admin",
+      "avatar": "AD",
+      "preferences": {
+        "seat": "N/A",
+        "language": "Қазақша",
+        "notifications": true
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "slug": "city-transfer",
+      "title": "Қалаішілік Sky Taxi",
+      "price": "35 000 ₸ бастап",
+      "description": "Қала ішіндегі VIP және жедел әуе трансфер қызметі.",
+      "details": "Қала ішінде кептелісті айналып өтіп, 10–20 минутта жетуге арналған қызмет. Premium boarding, live tracking және маршрут мониторингі қарастырылған.",
+      "duration": "10–20 минут",
+      "features": [
+        "Жылдам брондау",
+        "Қауіпсіз ұшу",
+        "Live tracking",
+        "VIP күту аймағы"
+      ],
+      "image": "/assets/images/service-1.svg"
+    },
+    {
+      "id": 2,
+      "slug": "airport-link",
+      "title": "Әуежай Sky Link",
+      "price": "45 000 ₸ бастап",
+      "description": "Әуежайға және әуежайдан жедел жеткізу.",
+      "details": "Business traveller-лер үшін арналған әуежай трансфері. Meet & greet, luggage assist, Kaspi QR арқылы предоплата және уақыт бойынша нақты слот қолжетімді.",
+      "duration": "15–25 минут",
+      "features": [
+        "Meet & Greet",
+        "Жүкке көмек",
+        "Priority lane",
+        "SMS хабарлама"
+      ],
+      "image": "/assets/images/service-4.svg"
+    },
+    {
+      "id": 3,
+      "slug": "business-charter",
+      "title": "Business Charter",
+      "price": "120 000 ₸ бастап",
+      "description": "Корпоративтік және жеке charter бағыттары.",
+      "details": "Компания басшылары мен VIP клиенттерге арналған жабық бағыт. Жеке диспетчер, икемді кесте, дербес қауіпсіздік және конфиденциалды маршрут беріледі.",
+      "duration": "30–90 минут",
+      "features": [
+        "Жеке диспетчер",
+        "Конфиденциалдылық",
+        "Premium lounge",
+        "Fast boarding"
+      ],
+      "image": "/assets/images/service-2.svg"
+    },
+    {
+      "id": 4,
+      "slug": "premium-tour",
+      "title": "Premium Tour",
+      "price": "150 000 ₸ бастап",
+      "description": "Панорамалық city view және фото/видео турлар.",
+      "details": "Алматы, Астана және Шымкент бағыттары бойынша люкс панорамалық тур. Фото-тоқтау, сыйлық сертификаты және арнайы медиа-пакет енгізілген.",
+      "duration": "25–40 минут",
+      "features": [
+        "Панорама",
+        "Фото/видео",
+        "Гид қызметі",
+        "Сыйлық пакеті"
+      ],
+      "image": "/assets/images/service-3.svg"
+    },
+    {
+      "id": 5,
+      "slug": "medical-priority",
+      "title": "Medical Priority Lift",
+      "price": "90 000 ₸ бастап",
+      "description": "Шұғыл логистикаға арналған priority бағыт.",
+      "details": "Медицина персоналы, жедел құжат немесе арнайы жеткізу логистикасы үшін жылдам маршрут. Алдын ала верификация мен dedicated оператор қолдауы бар.",
+      "duration": "15–35 минут",
+      "features": [
+        "Priority dispatch",
+        "24/7 оператор",
+        "Tracking",
+        "Secure route"
+      ],
+      "image": "/assets/images/service-1.svg"
+    },
+    {
+      "id": 6,
+      "slug": "intercity-express",
+      "title": "Intercity Express",
+      "price": "210 000 ₸ бастап",
+      "description": "Қалалар арасында жедел экспресс әуе сервисі.",
+      "details": "Алматы–Астана, Астана–Шымкент және басқа бағыттар үшін экспресс рейстер. Ұзақ қашықтыққа business-пакет, алдын ала төлем және хаб ауыстыру енгізілген.",
+      "duration": "50–110 минут",
+      "features": [
+        "Қалааралық рейс",
+        "Hub transfer",
+        "Business пакет",
+        "Onboard concierge"
+      ],
+      "image": "/assets/images/service-2.svg"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "SkyCab A1",
+      "capacity": 2,
+      "status": "Белсенді",
+      "base": "Алматы Hub",
+      "range": "100 км",
+      "battery": "73%",
+      "image": "/assets/images/service-2.svg"
+    },
+    {
+      "id": 2,
+      "name": "SkyCab A2",
+      "capacity": 2,
+      "status": "Белсенді",
+      "base": "Астана Hub",
+      "range": "120 км",
+      "battery": "76%",
+      "image": "/assets/images/service-3.svg"
+    },
+    {
+      "id": 3,
+      "name": "SkyCab A3",
+      "capacity": 2,
+      "status": "Белсенді",
+      "base": "Шымкент Hub",
+      "range": "140 км",
+      "battery": "79%",
+      "image": "/assets/images/service-4.svg"
+    },
+    {
+      "id": 4,
+      "name": "AeroJet B1",
+      "capacity": 4,
+      "status": "Белсенді",
+      "base": "Алматы Hub",
+      "range": "160 км",
+      "battery": "82%",
+      "image": "/assets/images/service-1.svg"
+    },
+    {
+      "id": 5,
+      "name": "AeroJet B2",
+      "capacity": 4,
+      "status": "Белсенді",
+      "base": "Астана Hub",
+      "range": "80 км",
+      "battery": "85%",
+      "image": "/assets/images/service-2.svg"
+    },
+    {
+      "id": 6,
+      "name": "Falcon Lift C1",
+      "capacity": 5,
+      "status": "Белсенді",
+      "base": "Шымкент Hub",
+      "range": "100 км",
+      "battery": "88%",
+      "image": "/assets/images/service-3.svg"
+    },
+    {
+      "id": 7,
+      "name": "Falcon Lift C2",
+      "capacity": 5,
+      "status": "Белсенді",
+      "base": "Алматы Hub",
+      "range": "120 км",
+      "battery": "91%",
+      "image": "/assets/images/service-4.svg"
+    },
+    {
+      "id": 8,
+      "name": "UrbanAir D1",
+      "capacity": 3,
+      "status": "Белсенді",
+      "base": "Астана Hub",
+      "range": "140 км",
+      "battery": "94%",
+      "image": "/assets/images/service-1.svg"
+    },
+    {
+      "id": 9,
+      "name": "UrbanAir D2",
+      "capacity": 3,
+      "status": "Белсенді",
+      "base": "Шымкент Hub",
+      "range": "160 км",
+      "battery": "97%",
+      "image": "/assets/images/service-2.svg"
+    },
+    {
+      "id": 10,
+      "name": "Business Jet E1",
+      "capacity": 6,
+      "status": "Белсенді",
+      "base": "Алматы Hub",
+      "range": "80 км",
+      "battery": "71%",
+      "image": "/assets/images/service-3.svg"
+    },
+    {
+      "id": 11,
+      "name": "Premium Tour F1",
+      "capacity": 4,
+      "status": "Белсенді",
+      "base": "Астана Hub",
+      "range": "100 км",
+      "battery": "74%",
+      "image": "/assets/images/service-4.svg"
+    },
+    {
+      "id": 12,
+      "name": "Premium Tour F2",
+      "capacity": 4,
+      "status": "Белсенді",
+      "base": "Шымкент Hub",
+      "range": "120 км",
+      "battery": "77%",
+      "image": "/assets/images/service-1.svg"
+    },
+    {
+      "id": 13,
+      "name": "Express G1",
+      "capacity": 2,
+      "status": "Белсенді",
+      "base": "Алматы Hub",
+      "range": "140 км",
+      "battery": "80%",
+      "image": "/assets/images/service-2.svg"
+    },
+    {
+      "id": 14,
+      "name": "Express G2",
+      "capacity": 2,
+      "status": "Белсенді",
+      "base": "Астана Hub",
+      "range": "160 км",
+      "battery": "83%",
+      "image": "/assets/images/service-3.svg"
+    },
+    {
+      "id": 15,
+      "name": "SkyLine H1",
+      "capacity": 4,
+      "status": "Техқызметте",
+      "base": "Шымкент Hub",
+      "range": "80 км",
+      "battery": "86%",
+      "image": "/assets/images/service-4.svg"
+    },
+    {
+      "id": 16,
+      "name": "SkyLine H2",
+      "capacity": 4,
+      "status": "Белсенді",
+      "base": "Алматы Hub",
+      "range": "100 км",
+      "battery": "89%",
+      "image": "/assets/images/service-1.svg"
+    },
+    {
+      "id": 17,
+      "name": "Astana Glide I1",
+      "capacity": 3,
+      "status": "Резервте",
+      "base": "Астана Hub",
+      "range": "120 км",
+      "battery": "92%",
+      "image": "/assets/images/service-2.svg"
+    },
+    {
+      "id": 18,
+      "name": "Shymkent Wing J1",
+      "capacity": 3,
+      "status": "Белсенді",
+      "base": "Шымкент Hub",
+      "range": "140 км",
+      "battery": "95%",
+      "image": "/assets/images/service-3.svg"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1001,
+      "userId": 1,
+      "customerName": "Магжан Тлеубек",
+      "phone": "+7 747 548 06 88",
+      "service": "Қалаішілік Sky Taxi",
+      "from": "MEGA Alma-Ata",
+      "to": "Esentai Mall",
+      "date": "2026-04-05",
+      "time": "14:30",
+      "passengers": 2,
+      "price": 42000,
+      "prepayment": 12000,
+      "status": "Расталды",
+      "createdAt": "2026-04-01 10:45"
+    },
+    {
+      "id": 1002,
+      "userId": 1,
+      "customerName": "Магжан Тлеубек",
+      "phone": "+7 747 548 06 88",
+      "service": "Business Charter",
+      "from": "Астана Hub",
+      "to": "Qazaqstan Expo",
+      "date": "2026-04-12",
+      "time": "11:00",
+      "passengers": 3,
+      "price": 150000,
+      "prepayment": 50000,
+      "status": "Күтілуде",
+      "createdAt": "2026-04-01 11:05"
+    },
+    {
+      "id": 1003,
+      "userId": 1,
+      "customerName": "Магжан Тлеубек",
+      "phone": "+7 747 548 06 88",
+      "service": "Premium Tour",
+      "from": "Көктөбе",
+      "to": "Almaty View Route",
+      "date": "2026-04-14",
+      "time": "18:20",
+      "passengers": 2,
+      "price": 165000,
+      "prepayment": 60000,
+      "status": "Орындалды",
+      "createdAt": "2026-04-01 11:25"
+    }
+  ],
+  "payments": [
+    {
+      "id": 501,
+      "userId": 1,
+      "type": "Предоплата",
+      "amount": 12000,
+      "bookingId": 1001,
+      "status": "Қабылданды",
+      "createdAt": "2026-04-01 10:46"
+    },
+    {
+      "id": 502,
+      "userId": 1,
+      "type": "Kaspi QR",
+      "amount": 50000,
+      "bookingId": 1002,
+      "status": "Қабылданды",
+      "createdAt": "2026-04-01 11:06"
+    },
+    {
+      "id": 503,
+      "userId": 1,
+      "type": "Kaspi QR",
+      "amount": 60000,
+      "bookingId": 1003,
+      "status": "Қабылданды",
+      "createdAt": "2026-04-01 11:30"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 901,
+      "userId": 1,
+      "title": "Бронь расталды",
+      "message": "#1001 тапсырысыңыз расталды. Ұшу уақыты 14:30.",
+      "time": "2026-04-01 10:47"
+    },
+    {
+      "id": 902,
+      "userId": 1,
+      "title": "Kaspi QR төлемі қабылданды",
+      "message": "#1002 броні үшін 50 000 ₸ предоплата қабылданды.",
+      "time": "2026-04-01 11:06"
+    },
+    {
+      "id": 903,
+      "userId": 1,
+      "title": "Premium Tour аяқталды",
+      "message": "#1003 рейсі орындалды. Тарихта сақталды.",
+      "time": "2026-04-01 20:10"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" fill="none">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#6d28d9"/></linearGradient></defs>
+    <rect width="800" height="520" rx="36" fill="#08111f"/>
+    <rect x="44" y="44" width="712" height="432" rx="28" fill="url(#g)" fill-opacity=".18" stroke="#8b5cf6"/>
+    <circle cx="618" cy="128" r="58" fill="#8b5cf6" fill-opacity=".25"/>
+    <path d="M146 324h320l82-54c36-24 84-14 107 22l20 32H170c-20 0-24-20-24-20s0-20 0-20Z" fill="#f8fafc"/>
+    <path d="M234 291l94-62c24-16 57-10 74 14l30 48H206l28-0Z" fill="#bae6fd"/>
+    <circle cx="238" cy="348" r="26" fill="#111827"/><circle cx="238" cy="348" r="11" fill="#94a3b8"/>
+    <circle cx="542" cy="348" r="26" fill="#111827"/><circle cx="542" cy="348" r="11" fill="#94a3b8"/>
+    <text x="68" y="98" fill="#e2e8f0" font-size="34" font-family="Arial" font-weight="700">Business Charter</text>
+    <text x="68" y="136" fill="#cbd5e1" font-size="20" font-family="Arial">Sky Taxi premium visual</text>
+    </svg>

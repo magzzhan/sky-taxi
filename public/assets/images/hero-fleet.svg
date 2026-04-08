@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0ea5e9"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#1f2937"/></linearGradient>
+</defs>
+<rect width="1200" height="700" rx="40" fill="url(#g2)"/>
+<circle cx="930" cy="120" r="70" fill="#22d3ee" fill-opacity=".18"/>
+<circle cx="1060" cy="170" r="110" fill="#8b5cf6" fill-opacity=".15"/>
+<path d="M0 560C150 500 250 620 430 560C565 515 610 420 775 420C935 420 1020 500 1200 455V700H0V560Z" fill="#0f172a"/>
+<g opacity=".9">
+<rect x="110" y="345" width="420" height="145" rx="68" fill="url(#g1)"/>
+<ellipse cx="510" cy="415" rx="180" ry="37" fill="#38bdf8" fill-opacity=".25"/>
+<path d="M520 376L720 330C758 322 790 360 778 397L770 421H555L520 376Z" fill="#e0f2fe"/>
+<path d="M480 386H670L624 447H477C448 447 423 429 419 401C415 372 437 346 466 346H517L480 386Z" fill="#f8fafc"/>
+<rect x="514" y="355" width="95" height="35" rx="14" fill="#0f172a" fill-opacity=".72"/>
+<circle cx="470" cy="452" r="26" fill="#111827"/>
+<circle cx="470" cy="452" r="12" fill="#94a3b8"/>
+<circle cx="705" cy="452" r="26" fill="#111827"/>
+<circle cx="705" cy="452" r="12" fill="#94a3b8"/>
+<path d="M330 336L410 282C438 263 474 272 491 303L512 345H333L330 336Z" fill="#7dd3fc"/>
+<path d="M773 367L877 350C897 347 916 361 919 382L923 406H766L773 367Z" fill="#93c5fd"/>
+<rect x="285" y="319" width="69" height="13" rx="6.5" fill="#22d3ee"/>
+</g>
+<g>
+<rect x="86" y="170" width="320" height="138" rx="30" fill="#0b1220" stroke="#1e293b"/>
+<text x="116" y="220" fill="#e2e8f0" font-size="28" font-family="Arial">Sky Taxi Fleet</text>
+<text x="116" y="260" fill="#7dd3fc" font-size="54" font-family="Arial" font-weight="700">18 aircraft</text>
+<text x="116" y="292" fill="#94a3b8" font-size="24" font-family="Arial">Almaty • Astana • Shymkent hubs</text>
+</g>
+<g opacity=".65">
+<rect x="840" y="440" width="210" height="146" rx="28" fill="#0b1220" stroke="#334155"/>
+<text x="875" y="497" fill="#e2e8f0" font-size="26" font-family="Arial">Kaspi QR</text>
+<text x="875" y="534" fill="#94a3b8" font-size="20" font-family="Arial">Prepayment ready</text>
+</g>
+</svg>
